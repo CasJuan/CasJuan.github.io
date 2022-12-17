@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: aqua;
+    align-items: center;
+    padding: 10px;
+}
+
+.nombre{
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.nombre:hover{
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 500;
+    padding-right: 30px;
+}
+
+nav  a:hover{
+    color: white;
+}
