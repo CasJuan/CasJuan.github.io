@@ -130,6 +130,7 @@ nav  a:hover{
     color: var(--claroUno);
     z-index: 1;
 }
+
 .boton::before, .boton::after {
     content: '';
     display: block;
@@ -199,13 +200,10 @@ nav  a:hover{
     align-items: center;
     flex-direction: column;
     margin: 10px;
-}
-
-.container-skill{
     filter: grayscale(1);
     transition: .5s;
 }
 
-.container-skill:hover{
+.card-skill:hover{
     filter: grayscale(0);
 }
