@@ -183,3 +183,29 @@ nav  a:hover{
     justify-content: center;
     border-radius: 20px;
 }
+
+.info-secundaria-skills{
+    width: 500px;
+    height: 50%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-skill{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.container-skill{
+    filter: grayscale(1);
+    transition: .5s;
+}
+
+.container-skill:hover{
+    filter: grayscale(0);
+}
