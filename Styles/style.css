@@ -207,3 +207,22 @@ nav  a:hover{
 .card-skill:hover{
     filter: grayscale(0);
 }
+
+.container-proyectos{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-principal-proyectos{
+    background-color: var(--claroDos);
+    width: 80rem;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
