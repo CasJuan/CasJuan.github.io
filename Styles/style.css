@@ -53,7 +53,7 @@ nav a{
     color: var(--claroDos);
 }
 
-nav  a:hover{
+nav a:hover{
     color: var(--claro);
 }
 
@@ -279,7 +279,7 @@ nav  a:hover{
     transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
    }
    
-   .btn-cssbuttons::before {
+.btn-cssbuttons::before {
     position: absolute;
     content: "";
     top: 0;
@@ -290,29 +290,29 @@ nav  a:hover{
     background: var(--claroDos);
     border-radius: 24px;
     transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
-   }
+}
    
-   .btn-cssbuttons span,
-   .btn-cssbuttons span span {
+.btn-cssbuttons span,
+.btn-cssbuttons span span {
     display: inline-flex;
     vertical-align: middle;
     transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
-   }
+}
    
-   .btn-cssbuttons span {
+.btn-cssbuttons span {
     transition-delay: 0.05s;
-   }
+}
    
-   .btn-cssbuttons span:first-child {
+.btn-cssbuttons span:first-child {
     padding-right: 7px;
-   }
+}
    
-   .btn-cssbuttons span span {
+.btn-cssbuttons span span {
     margin-left: 8px;
     transition-delay: 0.1s;
-   }
+}
    
-   .btn-cssbuttons ul {
+.btn-cssbuttons ul {
     position: absolute;
     top: 50%;
     left: 0;
@@ -322,49 +322,91 @@ nav  a:hover{
     padding: 0;
     list-style-type: none;
     transform: translateY(-50%);
-   }
+}
    
-   .btn-cssbuttons ul li {
+.btn-cssbuttons ul li {
     flex: 1;
-   }
+ }
 
-   .icono-boton{
+.icono-boton{
         width: 2rem;
         height: 2rem;
-   }
+}
    
-   .btn-cssbuttons ul li a {
+.btn-cssbuttons ul li a {
     display: inline-flex;
     vertical-align: middle;
     transform: translateY(55px);
     transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
-   }
+}
    
-   .btn-cssbuttons ul li a:hover {
+.btn-cssbuttons ul li a:hover {
     opacity: 0.5;
-   }
+ }
    
-   .btn-cssbuttons:hover::before {
+.btn-cssbuttons:hover::before {
     transform: scale(1.2);
-   }
+}
    
-   .btn-cssbuttons:hover span,
-   .btn-cssbuttons:hover span span {
+.btn-cssbuttons:hover span,
+.btn-cssbuttons:hover span span {
     transform: translateY(-55px);
-   }
+}
    
-   .btn-cssbuttons:hover ul li a {
+.btn-cssbuttons:hover ul li a {
     transform: translateY(0);
-   }
+}
    
-   .btn-cssbuttons:hover ul li:nth-child(1) a {
+.btn-cssbuttons:hover ul li:nth-child(1) a {
     transition-delay: 0.15s;
-   }
+}
    
-   .btn-cssbuttons:hover ul li:nth-child(2) a {
+.btn-cssbuttons:hover ul li:nth-child(2) a {
     transition-delay: 0.2s;
-   }
+}
    
-   .btn-cssbuttons:hover ul li:nth-child(3) a {
+.btn-cssbuttons:hover ul li:nth-child(3) a {
     transition-delay: 0.25s;
-   }
+}
+
+.container-contacto{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-principal-contacto{
+    background-color: var(--claroDos);
+    width: 80rem;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.footer{
+    margin: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--claroUno);
+    align-items: center;
+    padding: 10px;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+.footer a{
+    font-size: 20px;
+    color: var(--claro);
+    text-decoration: none;
+}
+
+.footer :hover{
+    color: var(--principal);
+}
+
